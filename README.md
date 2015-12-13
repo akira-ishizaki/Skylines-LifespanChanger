@@ -1,5 +1,7 @@
 # Skylines-LifespanChanger
-This changes cims' lifespan to a specified or more random age. This may reduce death waves. 
+This changes cims' lifespan to a specified or more random age.  
+  
+You can configure it from the option panel.  
   
 [Default] it is the same in vanilla. They die randomly from age 240. And it is not completely random.  
 [More random age] They die randomly from age 180 (the age when they become seniors), but not completely randomly.  
