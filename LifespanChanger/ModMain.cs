@@ -150,8 +150,6 @@ namespace LifespanChanger
             if (mode == LoadMode.LoadGame || mode == LoadMode.NewGame)
             {
                 RedirectionHelper.RedirectCalls(m_redirectionStates, typeof(ResidentAI), typeof(CustomResidentAI), "UpdateAge", 2);
-                RedirectionHelper.RedirectCalls(m_redirectionStates, typeof(CustomResidentAI), typeof(ResidentAI), "FinishSchoolOrWork", 2);
-                RedirectionHelper.RedirectCalls(m_redirectionStates, typeof(CustomResidentAI), typeof(ResidentAI), "Die", 2);
             }
         }
 
